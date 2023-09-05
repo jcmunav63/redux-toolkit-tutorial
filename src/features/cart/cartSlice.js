@@ -1,9 +1,9 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import cartItems from '../../cartItems';
 
-const initalState = {
+const initialState = {
   cartItems: cartItems,
-  amount: 0,
+  amount: 2,
   total: 0,
   isLoading: true,
 };
